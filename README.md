@@ -1,5 +1,4 @@
 # Tic-Tac-Toe AI
-# Command-line game with difficulty levels, score tracking, and replay.
 
 ## Project Description
 This project is a command-line Tic-Tac-Toe game written in Python. The user plays against a computer opponent with multiple difficulty levels. The program includes score tracking, replay functionality, input validation, and a clean numbered board display.

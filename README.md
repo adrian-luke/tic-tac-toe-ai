@@ -14,6 +14,9 @@ The AI is rule-based. On easier difficulty, it makes random moves. On harder dif
 - Input validation for invalid moves
 - Error handling for non-numeric inputs
 
+## Controls
+Players choose a number from 1 to 9 to place their symbol on the board. Empty spaces display their number so valid moves are easy to see.
+
 ## How to Run
 1. Make sure Python is installed.
 2. Download or clone this repository.

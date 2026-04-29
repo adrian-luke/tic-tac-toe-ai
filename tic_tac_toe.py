@@ -51,7 +51,7 @@ def choose_symbol():
     global human, ai
 
     while True:
-        choice = input("Do you want to be X or O? ").upper()
+        choice = input("Do you want to be X or O? ").strip().upper()
 
         if choice == "X":
             human = "X"
@@ -72,7 +72,7 @@ def choose_difficulty():
         print("2. Medium")
         print("3. Hard")
 
-        choice = input("Enter 1, 2, or 3: ")
+        choice = input("Enter 1, 2, or 3: ").strip()
 
         if choice == "1":
             return "Easy"

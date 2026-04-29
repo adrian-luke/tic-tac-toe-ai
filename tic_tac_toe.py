@@ -240,6 +240,8 @@ def play_game(difficulty):
 def main():
     clear_screen()
     print("=== TIC-TAC-TOE ===")
+    print("Choose a number on the board to place your move.")
+    print("Try to get three in a row before the computer.\n")
 
     choose_symbol()
     difficulty = choose_difficulty()

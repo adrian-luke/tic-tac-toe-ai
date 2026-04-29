@@ -12,7 +12,10 @@ draw_score = 0
 
 
 def clear_screen():
-    os.system("cls")
+    if os.name == "nt":
+        os.system("cls")
+    else:
+        os.system("clear")
 
 
 def reset_board():

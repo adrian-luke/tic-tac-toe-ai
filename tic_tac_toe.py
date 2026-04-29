@@ -120,7 +120,7 @@ def get_available_moves():
 def human_move():
     while True:
         try:
-            move = int(input("Enter your move: "))
+            move = int(input("Enter your move (1-9): ").strip())
 
             if move < 1 or move > 9:
                 print("Pick a number from 1 to 9.")

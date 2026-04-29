@@ -247,11 +247,15 @@ def main():
     while True:
         play_game(difficulty)
 
-        again = input("\nPlay again? (y/n): ").lower()
+        while True:
+            again = input("\nPlay again? (y/n): ").lower()
 
-        if again != "y":
-            print("Thanks for playing.")
-            break
-
+            if again == "y":
+                break
+            elif again == "n":
+                print("Thanks for playing.")
+                return
+            else:
+                print("Please enter y or n.")
 
 main()
